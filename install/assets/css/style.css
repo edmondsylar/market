@@ -1,0 +1,135 @@
+/* === Common Style === */
+@font-face {
+	font-family:'Asap';
+	font-style:normal;
+	font-weight:700;
+	src:local('Asap Bold'),local(Asap-Bold),url(../fonts/Asap-Bold.woff2) format("woff2")
+}
+body {
+	background: #F5F5F5;
+	background-attachment: fixed;
+	background-image: url('./../../../assets/404/bg.jpg');
+	background-size: cover;
+	font-size: 75%;
+	font-family: Helvetica,Arial,sans-serif;
+}
+input, label {
+	display: block;
+	font-size: 18px;
+	margin: 0;
+	padding: 10px;
+}
+label {
+	margin-top: 20px;
+}
+input.input_text {
+	width: 100%;
+	border: 1px solid #aaa;
+}
+input#submit {
+	margin: 25px auto 0;
+	font-size: 25px;
+}
+fieldset {
+	padding: 30px;
+	border-radius:10px;
+}
+legend {
+	font-size: 18px;
+	font-weight: bold;
+}
+.installer_content {
+    padding: 50px;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 60%;
+    margin: 30px auto;
+}
+.error {
+	background: #ffd1d1;
+	border: 1px solid #ff5858;
+	padding: 4px;
+	font-size: 14px;
+}
+.installer_title {
+	background: #00A65A;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+    color: #fff;
+}
+.main_content{
+
+}
+.btn{
+	border: 1px solid #ddd;
+	width: 100%;
+}
+.btn-green{
+	background: #00A65A;
+	color: #fff;
+}
+.red{
+	color:#ff0000;
+}
+.hide{
+	display: none;
+}
+.title{
+	font-size: 25px;
+}
+.alert{
+	font-size: 15px;
+}
+.alert-success{
+
+}
+.step2{
+	text-align: center;
+}
+#btn-before{
+	font-size: 20px;
+}
+#btn-complete{
+	width: 100%;
+	margin: 25px 0px;
+}
+#btn-complete a{
+	padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.div1{}
+.div1 tr{}
+.div1 tr td, .div1 tr th {
+    font-size: 14px;
+    color: #333;
+}
+.writeable{
+	width: 120px;
+    margin: 0px 10px;
+}
+.sub-title {
+	font-size: 13px;
+}
+.required{
+	color: red;
+}
+.submit-div{
+	padding: 30px 0px;
+}
+.cbtn1{
+	max-width: 110px;
+    font-size: 20px;
+}
+.cbtn2{
+	max-width: 110px;
+    font-size: 20px;
+}
+.btn-next{
+	font-size: 20px;
+	font-weight: bold;
+}
+.control-label{
+	margin-top: 0px !important;
+}

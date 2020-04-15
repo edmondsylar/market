@@ -1,0 +1,1 @@
+<?php echo $get_cpn_temps; ?>
